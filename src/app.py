@@ -5,11 +5,8 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"status": "ok", "message": "Trading API is live"}
+    return {"message": "Trading Automation API is running 🚀"}
 
 @app.get("/run-trade")
 def run_trade():
-    results = run_once()
-    if not results:
-        return {"Trade": "No", "message": "No signals found"}
-    return results
+    return run_once()
