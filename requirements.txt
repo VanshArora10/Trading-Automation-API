@@ -2,5 +2,6 @@ fastapi
 uvicorn
 pandas
 numpy
-scikit-learn
 joblib
+yfinance
+scikit-learn
