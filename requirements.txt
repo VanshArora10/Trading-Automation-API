@@ -10,6 +10,9 @@ ta
 
 # Web + API
 requests
+fastapi
+uvicorn[standard]
+python-dotenv
 
 # News Sentiment (optional, comment out if not used)
 beautifulsoup4
@@ -17,4 +20,3 @@ newspaper3k
 nltk
 transformers
 torch
-python-dotenv
