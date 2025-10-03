@@ -1,0 +1,13 @@
+[
+  {
+    "Stock": "ADANIENT.NS",
+    "Side": "HOLD",
+    "Entry": 2597.9,
+    "StopLoss": 2571.92,
+    "Target": 2623.88,
+    "Shares": 19,
+    "Confidence": "33.9%",
+    "Timestamp": "2025-10-03T14:41:10.337279",
+    "Trade": "Yes"
+  }
+]
