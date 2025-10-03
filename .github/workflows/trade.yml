@@ -2,10 +2,10 @@ name: Trading Automation
 
 on:
   schedule:
-    # Run every 5 minutes, Monday-Friday, from 03:45 to 10:00 UTC (9:15 to 15:30 IST)
+    # Every 5 minutes between 9:15am–3:30pm IST (3:45am–10:00am UTC)
     - cron: "*/5 3-9 * * 1-5"
     - cron: "0 10 * * 1-5"
-  workflow_dispatch:   # allows manual run
+  workflow_dispatch:   # still lets you run manually
 
 jobs:
   run-trade:
