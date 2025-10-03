@@ -1,7 +1,20 @@
-fastapi
-uvicorn
+# Core ML + Data
 pandas
 numpy
 joblib
-yfinance
 scikit-learn
+
+# Market Data + Indicators
+yfinance
+ta
+
+# Web + API
+requests
+
+# News Sentiment (optional, comment out if not used)
+beautifulsoup4
+newspaper3k
+nltk
+transformers
+torch
+python-dotenv
